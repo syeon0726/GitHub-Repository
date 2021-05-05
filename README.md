@@ -62,7 +62,7 @@
  
  ## _**git add & git commit & git push**_
  
- ### git add filenmae
+ ### git add filenae
 ![9]( https://user-images.githubusercontent.com/78208821/117115738-7c92ec00-adc8-11eb-9644-b96cff45f85e.png)
 > MarkDownProject.md file을 *준비영역(Statiting Area)* 로 옮겨준다. </br>GitHub와 연동하려면 git remote로 원격 저장소와 연결해주는 과정이 필수이다.
 
