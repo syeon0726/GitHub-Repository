@@ -47,7 +47,7 @@
 ---
 
 # 2. 본격적인 Project 시작 단계
-    MarkDownProject file을 생성하고 branch를 통해 file을 관리하도록 한다.
+    MarkDownProject file을 생성하고 새로운 branch 생성을 통해 Project file을 관리하도록 한다.
     
  ## _**touch**_
  
@@ -79,5 +79,34 @@
 
 
 
+ ## _**git clone & git branch & git checkout**_
+ 
+ + 이제 project를 따로 관리할 branch를 생성하고 우리가 만들었던 MarkDownProject.md라는 file을 가져오는 작업을 하도록 한다. 
+ 
+ ### git clone
+ ![12](https://user-images.githubusercontent.com/78208821/117156018-3d7c8f00-adf8-11eb-9515-d64ba87cc3b8.png)
+ > 먼저 기존에 올려두었던 github의 project를 clone이라는 명령어를 통해 가져온다.
+ >>Result</br>
+ >>![13](https://user-images.githubusercontent.com/78208821/117158353-4bcbaa80-adfa-11eb-85af-86cdb924a962.png)</br>
+ >>현재 작업 directory에 원격저장소의 내용들이 그대로 저장되어 있음을 확인할 수 있다.
+ 
+ ### git branch branchname
+ ![14](https://user-images.githubusercontent.com/78208821/117156119-5422e600-adf8-11eb-84ff-bb78479adb25.png)
+ >새로운 branch를 생성하는 명령어이다.</br> 이전에 commit한 이력이 없다면 새로운 branch를 생성하는게 불가능하다.
+ 
+ ### git checkout branchname
+ ![15](https://user-images.githubusercontent.com/78208821/117156119-5422e600-adf8-11eb-84ff-bb78479adb25.png)
+ >내가 지정한 branch로 이동하는 명령어이다.</br> git branch 라는 명령어를 통해 현재 내 branch list들을 확인해주도록 하자.
+ 
+ ### git push --set-upstream origin branchname
+ ![16](https://user-images.githubusercontent.com/78208821/117156150-5c7b2100-adf8-11eb-9ee0-ca89f1145859.png)
+ > 원격 저장소에 해당 branch에 해당하는 정보를 update 해주는 명령어이다.
+ >>Result</br>
+ >>![15](https://user-images.githubusercontent.com/78208821/117156180-643ac580-adf8-11eb-8e28-e2e398bde2c7.png)</br>
+ >>> 원격 저장소에 정보가 저장되어있음을 확인할수 있다.
+ 
+ 
+ 
+ 
 
 
