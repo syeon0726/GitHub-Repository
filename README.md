@@ -87,8 +87,8 @@
  ![12](https://user-images.githubusercontent.com/78208821/117156018-3d7c8f00-adf8-11eb-9515-d64ba87cc3b8.png)
  > 먼저 기존에 올려두었던 github의 project를 clone이라는 명령어를 통해 가져온다.
  >>Result</br>
- >>![13](https://user-images.githubusercontent.com/78208821/117158353-4bcbaa80-adfa-11eb-85af-86cdb924a962.png)</br>
- >>현재 작업 directory에 원격저장소의 내용들이 그대로 저장되어 있음을 확인할 수 있다.
+ >>![13](https://user-images.githubusercontent.com/78208821/117158353-4bcbaa80-adfa-11eb-85af-86cdb924a962.png)
+ >>>현재 작업 directory에 원격저장소의 내용들이 그대로 저장되어 있음을 확인할 수 있다.
  
  ### git branch branchname
  ![14](https://user-images.githubusercontent.com/78208821/117156119-5422e600-adf8-11eb-84ff-bb78479adb25.png)
@@ -102,7 +102,7 @@
  ![16](https://user-images.githubusercontent.com/78208821/117156150-5c7b2100-adf8-11eb-9ee0-ca89f1145859.png)
  > 원격 저장소에 해당 branch에 해당하는 정보를 update 해주는 명령어이다.
  >>Result</br>
- >>![15](https://user-images.githubusercontent.com/78208821/117156180-643ac580-adf8-11eb-8e28-e2e398bde2c7.png)</br>
+ >>![15](https://user-images.githubusercontent.com/78208821/117156180-643ac580-adf8-11eb-8e28-e2e398bde2c7.png)
  >>> 원격 저장소에 정보가 저장되어있음을 확인할수 있다.
  
  
