@@ -103,7 +103,7 @@
  ![16](https://user-images.githubusercontent.com/78208821/117156150-5c7b2100-adf8-11eb-9ee0-ca89f1145859.png)
  > 원격 저장소에 해당 branch에 해당하는 정보를 update 해주는 명령어이다.
  >>Result</br>
- >>![15](https://user-images.githubusercontent.com/78208821/117156180-643ac580-adf8-11eb-8e28-e2e398bde2c7.png)
+ >>![17](https://user-images.githubusercontent.com/78208821/117156180-643ac580-adf8-11eb-8e28-e2e398bde2c7.png)
  >>> 원격 저장소에 정보가 저장되어있음을 확인할수 있다.
  
  
@@ -118,7 +118,14 @@
  5. main branch로 최종 file 업로드
 
 ---
+### 1. 목차 작성
 
+### git pull
+![18](https://user-images.githubusercontent.com/78208821/117242501-5aed3f80-ae70-11eb-8255-f8c0c1ed0941.png)
+>remote에 있는 내용을 local 저장소에 받는 과정이다.</br>이때 현재 자신의 branch가 어디인지 확인을 잘 하고 pull하도록 한다.</br>만약 자신의 local에 변경사항이 있다면 oull할 시 error가 나므로 add, commit을 진행을 한 후 pull하거나 stash하여 자신의 변경사항을 다른곳에 저장한 후 pull하도록 한다.</br> local 작업 시작 전에 무조건 pull을 해준다.</br>remote 저장소에 변경된 사항이 있을 수 있기 때문이다.
+>>Result</br>
+>>![19](https://user-images.githubusercontent.com/78208821/117242513-5e80c680-ae70-11eb-8af0-fe7f58547cdc.png)
+>>>내 directory에 file이 올라와있음을 확인할 수 있다.
 
 
  
