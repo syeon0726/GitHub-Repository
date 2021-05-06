@@ -97,6 +97,7 @@
  ### git checkout branchname
  ![15](https://user-images.githubusercontent.com/78208821/117156119-5422e600-adf8-11eb-84ff-bb78479adb25.png)
  >내가 지정한 branch로 이동하는 명령어이다.</br> git branch 라는 명령어를 통해 현재 내 branch list들을 확인해주도록 하자.
+ ></br>git checkout -b branchname 을 할경우 새로운 branch를 생성해줌과 동시에 자동으로 그 branch로 이동한다.
  
  ### git push --set-upstream origin branchname
  ![16](https://user-images.githubusercontent.com/78208821/117156150-5c7b2100-adf8-11eb-9ee0-ca89f1145859.png)
@@ -104,6 +105,21 @@
  >>Result</br>
  >>![15](https://user-images.githubusercontent.com/78208821/117156180-643ac580-adf8-11eb-8e28-e2e398bde2c7.png)
  >>> 원격 저장소에 정보가 저장되어있음을 확인할수 있다.
+ 
+ 
+ ---
+ 
+ # 3. 본격적인 Project 수행
+ ## project 진행과정
+ 1. 목차 작성
+ 2. project 내용 작성
+ 3. 수정(보완) 부분 파악
+ 4. 수정 및 병함
+ 5. main branch로 최종 file 업로드
+
+---
+ 
+ 
  
  
  
