@@ -1,13 +1,24 @@
 https://github.com/syeon0726/Github-Repository.git
 
 # Git 사용법 및 MarkDown Project 작성 보고서 
-    Git Bash와 GitHub를 사용하는 과정을 명시적으로 보여줌으로써 사용법을 쉽게 익히고 이와 동시에 project를 진행하는 과정도 동시에 포함한다.
+   + Git Bash와 GitHub를 사용하는 과정을 명시적으로 보여줌으로써 사용법을 쉽게 익히고 이와 동시에 project를 진행하는 과정도 동시에 포함한다.
+   
+   목차
+   ---
+   
+   1. Project 시작 전 준비단계</br>
+    1-1. git config</br>1-2. git init</br>1-3. git remote</br>1-4. git status
+   2. 본격적인 Project 시작 단계</br>
+    2-1. touch</br>2-2. git add & git commit & git push</br>2-3. git clone & git branch & git checkout
+   
 ---
 
 
 # 1. Project 시작 전 준비단계
     git commit에 사용될 사용자를 등록하고 git bash를 본격적으로 사용할 준비를 완료한다
 
+
+---
     
 
 
