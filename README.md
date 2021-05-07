@@ -1,7 +1,7 @@
 https://github.com/syeon0726/Github-Repository.git
 
 # Git 사용법 및 MarkDown Project 작성 보고서 
-    git bash와 git을 사용하는 과정을 명시적으로 보여줌으로써 사용법을 쉽게 익히고 이와 동시에 project를 진행하는 과정도 동시에 포함한다.
+    Git Bash와 GitHub를 사용하는 과정을 명시적으로 보여줌으로써 사용법을 쉽게 익히고 이와 동시에 project를 진행하는 과정도 동시에 포함한다.
 ---
 
 
@@ -128,6 +128,24 @@ https://github.com/syeon0726/Github-Repository.git
 >>Result</br>
 >>![19](https://user-images.githubusercontent.com/78208821/117242513-5e80c680-ae70-11eb-8af0-fe7f58547cdc.png)
 >>>내 directory에 file이 올라와있음을 확인할 수 있다.
+
+---
+
+![19](https://user-images.githubusercontent.com/78208821/117431996-d16b6980-af64-11eb-8c92-195b37dac3e0.png)
+>원격 저장소에서 받아온 file의 목차를 작성해준뒤 저장해준다
+
+![20](https://user-images.githubusercontent.com/78208821/117432046-dfb98580-af64-11eb-8d2d-778e2eddd077.png)
+>아까전과 똑같은 작업을 반복해준다.</br> git add로 준비 영역(Stating Area)에 file을 업로드 한 뒤 git commit을 사용해 로컬 저장소에 file을 저장해준다.</br>마지막으로 git push를 이용해원격저장소에 file을 upload해준다.
+>>Result</br>
+>>![21](https://user-images.githubusercontent.com/78208821/117432051-e34d0c80-af64-11eb-9d28-fdc1763a258d.png)</br>
+>>![22](https://user-images.githubusercontent.com/78208821/117432091-ecd67480-af64-11eb-9f25-eede70da3c65.png)
+>>commit message를 확인할 수 있다.</br> 그리고 변경사항이 원격저장소에 잘 반영되있음을 확인 할 수 있다.
+
+---
+
+### git log
+![22](https://user-images.githubusercontent.com/78208821/117432064-e7792a00-af64-11eb-9c6c-2f5b1910c4a9.png)
+> 로컬 저장소의 commit 이력을 확인할 수 있다.</br>
 
 
  
