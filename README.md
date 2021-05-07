@@ -47,7 +47,7 @@ https://github.com/syeon0726/Github-Repository.git
 ![4](https://user-images.githubusercontent.com/78208821/117094908-f367bf00-ad9f-11eb-8d89-acb9551f767f.png)
 > GitHub 원격저장소와 내 로컬저장소를 연결해준다.</br>이 때 origin은
 
-### git remote -v
+### _**git remote -v**_
 ![5](https://user-images.githubusercontent.com/78208821/117094926-f95da000-ad9f-11eb-81f5-185be0f99b4e.png)
 >원격저장소가 제대로 연결되어있는지 확인할 수 있다.
 
@@ -133,7 +133,7 @@ https://github.com/syeon0726/Github-Repository.git
 ---
 ### 1. 목차 작성
 
-### git pull
+### _**git pull**_
 ![18](https://user-images.githubusercontent.com/78208821/117242501-5aed3f80-ae70-11eb-8255-f8c0c1ed0941.png)
 >remote에 있는 내용을 local 저장소에 받는 과정이다.</br>이때 현재 자신의 branch가 어디인지 확인을 잘 하고 pull하도록 한다.</br>만약 자신의 local에 변경사항이 있다면 oull할 시 error가 나므로 add, commit을 진행을 한 후 pull하거나 stash하여 자신의 변경사항을 다른곳에 저장한 후 pull하도록 한다.</br> local 작업 시작 전에 무조건 pull을 해준다.</br>remote 저장소에 변경된 사항이 있을 수 있기 때문이다.
 >>Result</br>
@@ -154,7 +154,7 @@ https://github.com/syeon0726/Github-Repository.git
 
 ---
 
-### git log
+### _**git log**_
 ![22](https://user-images.githubusercontent.com/78208821/117432064-e7792a00-af64-11eb-9c6c-2f5b1910c4a9.png)
 > 로컬 저장소의 commit 이력을 확인할 수 있다.</br>
 
