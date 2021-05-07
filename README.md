@@ -126,13 +126,14 @@ https://github.com/syeon0726/Github-Repository.git
  # 3. 본격적인 Project 수행
  ## project 진행과정
  1. 목차 작성
- 2. project 내용 작성
- 3. 수정(보완) 부분 파악
- 4. 수정 및 병함
- 5. main branch로 최종 file 업로드
+ 2. project 내용 작성 
+ 3. 수정(보완) 부분 파악및 수정 & 버젼관리 
+ 4. main branch로 최종 병함 (merge) 및 commit 정리 ( rebase )
 
 ---
-### 1. 목차 작성
+## 1. 목차 작성
+
+
 
 ### _**git pull**_
 ![18](https://user-images.githubusercontent.com/78208821/117242501-5aed3f80-ae70-11eb-8255-f8c0c1ed0941.png)
@@ -157,7 +158,33 @@ https://github.com/syeon0726/Github-Repository.git
 
 ### _**git log**_
 ![22](https://user-images.githubusercontent.com/78208821/117432064-e7792a00-af64-11eb-9c6c-2f5b1910c4a9.png)
-> 로컬 저장소의 commit 이력을 확인할 수 있다.</br>
+> 로컬 저장소의 commit 이력을 확인할 수 있다.</br>후에 commit을 관리하는 법을 배우도록 한다.
+
+---
+
+##  2. project 내용 작성
+
+![23](https://user-images.githubusercontent.com/78208821/117455145-db4f9580-af81-11eb-8099-cf834289ffe4.png)
+>첫번째 version이 완성되었다.</br>현재 MarkDown사용서에는 사용법과 용도만 명시되어있다.
+
+---
+
+## _**git tag**_
++ 태그는 특정 commit version에 붙이는 이름표로, 사용자에게 배포할 version을 인지시키거나, 중요하기 때문에 나중에 확인할 용도로 사용하면 유용하다.
+![24](https://user-images.githubusercontent.com/78208821/117455075-c410a800-af81-11eb-9300-f454b81b7c34.png)
+1. tag 생성</br>
+
+       git tag tagname branchname
+      
+>branchname을 적게되면 해당 branch의 마지막 commit에 tag가 붙게된다.
+2. 원격 저장소에 tag 저장</br>
+
+         git push origin tagname
+>git push를 할 때 tag를 함께 올리겠다고 명시하지 않으면 tag는 원격 저장소에 저장되지않는다.</br>특정 version에 대한 file과 tag를 같이 push하고 싶을때 위와 같이 작성한다.
+>>Result</br>
+>>![25](https://user-images.githubusercontent.com/78208821/117455085-c83cc580-af81-11eb-93f8-00a3ef9118ad.png)</br>
+>>![26](https://user-images.githubusercontent.com/78208821/117455110-d1c62d80-af81-11eb-9bb9-868ca9ea0956.png)>
+>>tag의 sourcecoude.zip을 압축해제해서 내용을 확인하면 내가 마지막으로 작성한 version이 있음을 확인할 수 있다.
 
 
  
