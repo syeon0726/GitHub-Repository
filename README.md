@@ -210,7 +210,31 @@ https://github.com/syeon0726/Github-Repository.git
 >version 3를 보니 목차1의 주의사항이 누락이 되어있었고 목차2에는 잘못된 주의사항이 적혀져있음이 확인되었다.</br>version 2로 되돌아가서 다시 작성하도록 한다.
 
 ## git reset --hard
-reset은 commit된 상태 즉 commit log를 남김없이 삭제하는 역할을 한다.</br>예를 들어 second commit을 없애고 first commit의 상태로 돌아가고싶다 라고한다면 first commit id를 입력해주면 된다.</br> 바로 사용해 보도록 한다.
+      reset은 commit된 상태 즉 commit log를 남김없이 삭제하는 역할을 한다.
+      예를 들어 second commit을 없애고 first commit의 상태로 돌아가고싶다 라고한다면 first commit id를 입력해주면 된다.
+      바로 사용해 보도록 한다.
+
+1. _commit log_ 확인
+![33](https://user-images.githubusercontent.com/78208821/117525021-51441300-affb-11eb-89df-379b884b2a51.png)
+>이중에서 우리는 second version으로 돌아가려고 한다. second version으로 돌아가기위해서는 second version의 commit id를 확인할필요가 있다.
+>>Commit Id
+>>![34](https://user-images.githubusercontent.com/78208821/117525044-7fc1ee00-affb-11eb-9379-17ddc2b8d3c8.png)</br>
+>>second version의 commit id 는 e996f1b이다.
+
+
+2. _**git reset --hard commit_id**_
+![35](https://user-images.githubusercontent.com/78208821/117525169-ef37dd80-affb-11eb-8fd0-3027d11f637d.png)
+
+3. _commit log_ 재확인
+![36](https://user-images.githubusercontent.com/78208821/117525251-4e95ed80-affc-11eb-956f-c8c49e2e5673.png)
+>third version의 commit이 아예 사라져있음을 확인 할 수 있다.</br>그렇다면 directory에있는 file의 상태는 어떨까?
+>>![image](https://user-images.githubusercontent.com/78208821/117525309-8ac94e00-affc-11eb-9eef-45a37728f11a.png)
+>>아까전에 적었던 주의 사항들이 모두 사라져있고 version2로 들어가 있음을 확인 할 수 있다.
+
+---
+
+## 4. main branch로 최종 병함 (merge) 및 commit 정리 ( rebase )
+최종 version을 완성한뒤 project 원격저장소에도 저장하고 tag를 이용해 원격저장소에도 저장해 두었다. 
 
 
 
