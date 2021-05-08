@@ -187,6 +187,35 @@ https://github.com/syeon0726/Github-Repository.git
 >>tag의 sourcecoude.zip을 압축해제해서 내용을 확인하면 내가 마지막으로 작성한 version이 있음을 확인할 수 있다.
 
 
+---
+
+##   3. 수정(보완) 부분 파악및 수정 & 버젼관리 
+
+### version2
+![27](https://user-images.githubusercontent.com/78208821/117522784-31f3b880-aff0-11eb-96bd-ce1b1c870011.png)
+![28](https://user-images.githubusercontent.com/78208821/117522799-3fa93e00-aff0-11eb-917a-19641be26665.png)
+>사용법과 용도를 확실히 명시적으로 보여주기 위해서 example과 result 부분을 추가해주였다.
+
+### version3
+![29](https://user-images.githubusercontent.com/78208821/117523664-8c8f1380-aff4-11eb-8496-604fa1c8e039.png)
+![30](https://user-images.githubusercontent.com/78208821/117523673-94e74e80-aff4-11eb-92e7-3dcd4664b7ce.png)
+>단순히 사용법과 용도, 예시뿐만이 아닌 사용시 주의사항을 추가해두었다.</br>수정사항부분을 파악하고 아무런 문제가 없을 경우에는 이것이 최종완성본일것이다.
+
+
+---
+
+### 수정 부분 파악
+![31](https://user-images.githubusercontent.com/78208821/117523874-9d8c5480-aff5-11eb-95f7-f4518e12c0a5.png)
+![32](https://user-images.githubusercontent.com/78208821/117523879-a2510880-aff5-11eb-8b01-8f8dcba6f467.png)
+>version 3를 보니 목차1의 주의사항이 누락이 되어있었고 목차2에는 잘못된 주의사항이 적혀져있음이 확인되었다.</br>version 2로 되돌아가서 다시 작성하도록 한다.
+
+## git reset --hard
+reset은 commit된 상태 즉 commit log를 남김없이 삭제하는 역할을 한다.</br>예를 들어 second commit을 없애고 first commit의 상태로 돌아가고싶다 라고한다면 first commit id를 입력해주면 된다. 바로 사용해 보도록 한다.
+
+
+
+
+
  
  
  
