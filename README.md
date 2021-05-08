@@ -272,26 +272,22 @@ https://github.com/syeon0726/Github-Repository.git
 
  사용 명령어 | 사용 여부 
  --- | --- 
- [add](#git-add-filename) | 21 
- [branch](#git-branch-branchname)| 48
+ [add](#git-add-filename) | o
+ [branch](#git-branch-branchname)| o
  [checkout](#git-checkout-branchname) | o
- [clone](#git-clone)|
-  [commit](#git-add-filename)|
-  [config](#git-config)|
-  [init](#git-init)|
-  [log](#git-log)|
-  [merge](#)|
- [pull](#git-pull) |
- [push](#git-push-origin-master) |
-  [rebase](#)|
-  [remote](#git-remote)|
- [reset--hard](#) |
- [status](#git-status) |
- [tag](#) |
- [](#) |
- [](#) |
-  [](#)|
-  [](#)|
+ [clone](#git-clone)| o
+  [commit](#git-add-filename)| o
+  [config](#git-config)| o
+  [init](#git-init)| o
+  [log](#git-log)| o
+  [merge](#git-merge)| o
+ [pull](#git-pull) | o
+ [push](#git-push-origin-master) | o
+  [rebase](#*git-rebase)| o
+  [remote](#git-remote)| o
+ [reset--hard](#수정-부분-파악) | o
+ [status](#git-status) | o
+ [tag](#git-tag) | o
 
 
 
