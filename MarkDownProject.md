@@ -49,6 +49,11 @@
 
 ___
 
+     1.이때 # 뒤에 반드시 공백을 추가해주도록 한다.
+     2. #의 개수는 최소 1개부터 최대 6개까지 쓸 수 있다. ( 7개부터는 지원되지 않는다. )
+    
+___
+
 ___
 
 </br></br>
@@ -74,6 +79,9 @@ I think I'll use it to format all of my documents from now on.
 
 ___
 
+        =와 -의 개수는 상관없다. 
+        둘의 개수가 동일하여도 되고 달라도 된다.
+    
 ___
 
 </BR></BR>
@@ -94,7 +102,13 @@ ___
 
 example senetence1  
 example sentence2</br>example sentence3
+___
 
+    1번의 방법은 사용하지 않는 것을 권장한다. 편집기에서 후행공백이이 있는지 없는지 확인하기가 어렵기 때문이다.
+    그러므로 2번의 방법을 사용하는것을 권장한다.
+___
+
+___
 
 </BR></BR>
 > ## __4. 강조__
@@ -169,11 +183,19 @@ example sentence2</br>example sentence3
     I ___love___ you.  
     __*I love you.*__  
     I **_love_** you.
-    
-    
+
+     ___
+
+        문자 주위에 공백이 없도록 유의해야한다.
+       단어 한중간에는 ***를 넣어도 되지만 ___를 넣어서는 안된다
+        ex) l***ov***e (o)
+            l___ov___e (x)
+
 ___
 
 ___
+    
+    
 
 </BR></BR>
 
@@ -201,6 +223,12 @@ ___
 >
 >>example **sentence2**
 >>>_example sentence3_
+
+___
+
+    1.인용구는 여러 단락을 포함할 수 있으므로 단락사이에 >를 추가해준다.
+    2.인용구는 예시와 같이 중첩 사용이 가능하다.
+    3. 인용구내에서 강조나 제목과같은 기능들을 사용할 수 있다.
 
 
 ___
@@ -268,7 +296,11 @@ ___
         1. example sentence2-1
         2. example sentence2-2  
     3. example sentence3
+    ___
 
+       . 를 제외하고 ) 를 활용할 수 도있지만 모든 Markdown응용프로그램에서 지원되는 것을 아니므로 되도록 호환성을 위해서 .를 사용하도록 한다.
+    
+    ___
 
 
     </br>
@@ -333,7 +365,11 @@ ___
         + example sentence2-1
         - example sentence2-2
     - example sentence3
+    ___
 
+       되도록이면 기호의 종류는 하나만 선택하도록 한다. 다양한 종류의 기호를 혼합하여 사용하는 것은 권장되지 않는다.
+
+    ___
 </BR></BR>
 
 +   ## **6-3. 목록에 추가할 수 있는 요소**
@@ -438,9 +474,12 @@ ___
 example senstence3
 
 _______________________
-___
+
+
+    호환성을 위해 수평선 앞뒤에 빈줄을 최소 하나 이상씩 추가해주도록 한다.
 
 ___
+
 
 </BR></BR>
 
@@ -480,8 +519,8 @@ GO TO *[GOOGLE](https://www.google.co.kr)*.
 
         [google-link][1]
 
-    >>Example2 ( 링크의 두 번째 부분 서식 지정)
-    + 레이블이 표시된 두번째 [ ] <u>바로 뒤에 콜론( ; )을 붙이고 하나이상의 공백</u>을 만든다.<br>그리고 링크를 달아준뒤 뒤에 선택적으로 제목을 달아줄 수 있다.
+        >>Example2 ( 링크의 두 번째 부분 서식 지정)
+         + 레이블이 표시된 두번째 [ ] <u>바로 뒤에 콜론( ; )을 붙이고 하나이상의 공백</u>을 만든다.<br>그리고 링크를 달아준뒤 뒤에 선택적으로 제목을 달아줄 수 있다.
 
             [1]: https://www.google.co.kr
             [1]: <https://www.google.co.kr>
@@ -496,7 +535,7 @@ GO TO *[GOOGLE](https://www.google.co.kr)*.
             [1]: <https://www.google.co.kr> "google"
             [1]: <https://www.google.co.kr> (google)
 
-    >>Example3 ( 활용 )
+        >>Example3 ( 활용 )
 
             GO TO [google-link][1]
 
@@ -509,15 +548,15 @@ GO TO *[GOOGLE](https://www.google.co.kr)*.
 
 
 
-    >>출력 결과
+        >>출력 결과
 
-    GO TO [google-link][1]  
+        GO TO [google-link][1]  
 
-    [1]:  https://www.google.co.kr
+        [1]:  https://www.google.co.kr
 
-    GO TO [google][2]
-
-    [2]: <https://www.google.co.kr> "google"
+        GO TO [google][2]
+    
+        [2]: <https://www.google.co.kr> "google"
 
 
  ___
@@ -554,12 +593,12 @@ ___
             )](https://i.pinimg.com/originals/bd/76/5d/bd765def594d116af21de47493771cf6.gif)
         
 
-    >>출력 결과
+        >>출력 결과
 
-    [![Kuromi](https://i.pinimg.com/originals/bd/76/5d/bd765def594d116af21de47493771cf6.gif)](https://i.pinimg.com/originals/bd/76/5d/bd765def594d116af21de47493771cf6.gif)
+        [![Kuromi](https://i.pinimg.com/originals/bd/76/5d/bd765def594d116af21de47493771cf6.gif)](https://i.pinimg.com/originals/bd/76/5d/bd765def594d116af21de47493771cf6.gif)
 
 
-      ___
+    ___
 
 ___
 
@@ -590,6 +629,11 @@ _example sentence_
 \_example sentence\_
 
 ___
+
+
+    백 슬래시를 이용해서 표기해줄 수 있는 리터럴 문자들
+    \, `, *, _, {}, [], <>, (), #, +, -, !, |
+
 
 ___
 
