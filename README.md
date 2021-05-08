@@ -285,7 +285,7 @@ https://github.com/syeon0726/Github-Repository.git
  [push](#git-push-origin-master) | o
   [rebase](#git-rebase)| o
   [remote](#git-remote)| o
- [reset--hard](#수정-부분-파악) | o
+ [reset--hard](#Commit-Id) | o
  [status](#git-status) | o
  [tag](#git-tag) | o
 
