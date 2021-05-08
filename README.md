@@ -211,7 +211,8 @@ https://github.com/syeon0726/Github-Repository.git
 ![32](https://user-images.githubusercontent.com/78208821/117523879-a2510880-aff5-11eb-8b01-8f8dcba6f467.png)
 >version 3를 보니 목차1의 주의사항이 누락이 되어있었고 목차2에는 잘못된 주의사항이 적혀져있음이 확인되었다.</br>version 2로 되돌아가서 다시 작성하도록 한다.
 
-## git reset --hard
+## git reset 
+
       reset은 commit된 상태 즉 commit log를 남김없이 삭제하는 역할을 한다.
       예를 들어 second commit을 없애고 first commit의 상태로 돌아가고싶다 라고한다면 first commit id를 입력해주면 된다.
       바로 사용해 보도록 한다.
