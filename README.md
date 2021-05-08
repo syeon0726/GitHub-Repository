@@ -272,7 +272,7 @@ https://github.com/syeon0726/Github-Repository.git
 
  사용 명령어 | 사용 여부 
  --- | --- 
- [add](#81) | 21 
+ [add](### git add filename) | 21 
  branch | 48
  checkout | o
 
