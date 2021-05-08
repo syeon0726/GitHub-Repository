@@ -273,8 +273,25 @@ https://github.com/syeon0726/Github-Repository.git
  사용 명령어 | 사용 여부 
  --- | --- 
  [add](#git-add-filename) | 21 
- branch | 48
- checkout | o
+ [branch]()| 48
+ [checkout]() | o
+ [clone](#)|
+  [commit](#git-commit--m-"message")|
+  [config](#git-config)|
+  [init](#git-init)|
+  [log](#)|
+  [merge](#)|
+ [pull](#) |
+ [push](#) |
+  [rebase](#)|
+  [remote](#git-remote)|
+ [reset--hard](#) |
+ [status](#git-status) |
+ [tag](#) |
+ [](#) |
+ [](#) |
+  [](#)|
+  [](#)|
 
 
 
