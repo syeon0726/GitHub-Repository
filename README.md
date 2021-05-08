@@ -241,7 +241,7 @@ https://github.com/syeon0726/Github-Repository.git
 ![38](https://user-images.githubusercontent.com/78208821/117526306-41c6c900-afff-11eb-90dc-d002a85263cf.png)
 ![39](https://user-images.githubusercontent.com/78208821/117527764-60ca5880-b009-11eb-9328-43a00553075f.png)
 
-> 현재 project branch의 commit은 19개이다. ece3554부터 f097f05의 commit까지 병합하는 작업을 하도록 하겠다.
+> 현재 project branch의 commit은 19개이다. e996f1b부터 f097f05의 commit까지 병합하는 작업을 하도록 하겠다.
 
 ### git rebase -i HEAD~조회할 개수
 
