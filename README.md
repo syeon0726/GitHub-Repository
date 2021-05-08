@@ -246,6 +246,17 @@ https://github.com/syeon0726/Github-Repository.git
 ### git rebase -i HEAD~조회할 개수
 
 라는 명령어를 사용한다.</BR>내 현재 commit은 19개이므로 git rebase -i HEAD~19를 하면 된다.</BR> 만약에 다 보고싶을 경우에는 git reabase -i HEAD~~ 로 하면 된다.
+![40](https://user-images.githubusercontent.com/78208821/117529498-d981e280-b012-11eb-93b1-1f6448588971.png)
+>s는 sqush인데 pick을 제외한 나머지 commit을 병합해준다.</br>편집기로 i를 넣어 끼워넣기를 해준다음 esc를 눌러 편집모드를 종료후 :wq를 입력해 저장하고 나와준다.
+![41](https://user-images.githubusercontent.com/78208821/117529503-de469680-b012-11eb-9db1-1293c399854a.png)
+>rebase가 끝났다면 git의 나의 branch에 push를 해주면 된다.</br>rebase의 conflict를 해결한 경우라면 git에서 거부를 하게 되는데 이때는, -f를 붙여 강제로 push하면 된다.
+
+---
+## git merge
+
+이제 최종 project가 완성되었으므로 main branch와 project project를 병합한다.
+
+
 
 
 
