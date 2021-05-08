@@ -283,7 +283,7 @@ https://github.com/syeon0726/Github-Repository.git
   [merge](#git-merge)| o
  [pull](#git-pull) | o
  [push](#git-push-origin-master) | o
-  [rebase](#*git-rebase)| o
+  [rebase](#git-rebase)| o
   [remote](#git-remote)| o
  [reset--hard](#수정-부분-파악) | o
  [status](#git-status) | o
