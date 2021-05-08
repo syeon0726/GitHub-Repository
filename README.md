@@ -228,13 +228,27 @@ https://github.com/syeon0726/Github-Repository.git
 3. _commit log_ 재확인
 ![36](https://user-images.githubusercontent.com/78208821/117525251-4e95ed80-affc-11eb-956f-c8c49e2e5673.png)
 >third version의 commit이 아예 사라져있음을 확인 할 수 있다.</br>그렇다면 directory에있는 file의 상태는 어떨까?
->>![image](https://user-images.githubusercontent.com/78208821/117525309-8ac94e00-affc-11eb-9eef-45a37728f11a.png)
+>>![37](https://user-images.githubusercontent.com/78208821/117525309-8ac94e00-affc-11eb-9eef-45a37728f11a.png)
 >>아까전에 적었던 주의 사항들이 모두 사라져있고 version2로 들어가 있음을 확인 할 수 있다.
 
 ---
 
 ## 4. main branch로 최종 병함 (merge) 및 commit 정리 ( rebase )
 최종 version을 완성한뒤 project 원격저장소에도 저장하고 tag를 이용해 원격저장소에도 저장해 두었다. 
+
+## git rebase
+현재 project branch를 보면 너무 많은 commit들이 쌓인 것을 확인 할 수 있다.</br>필수적인 commit을 제외하고 나머지 commit들을 병합하는 작업을 하도록 한다.
+![38](https://user-images.githubusercontent.com/78208821/117526306-41c6c900-afff-11eb-90dc-d002a85263cf.png)
+![39](https://user-images.githubusercontent.com/78208821/117527764-60ca5880-b009-11eb-9328-43a00553075f.png)
+
+> 현재 project branch의 commit은 19개이다. ece3554부터 f097f05의 commit까지 병합하는 작업을 하도록 하겠다.
+
+### git rebase -i HEAD~조회할 개수
+
+라는 명령어를 사용한다.</BR>내 현재 commit은 19개이므로 git rebase -i HEAD~19를 하면 된다.</BR> 만약에 다 보고싶을 경우에는 git reabase -i HEAD~~ 로 하면 된다.
+
+
+
 
 
 
