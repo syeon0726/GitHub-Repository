@@ -10,6 +10,8 @@ https://github.com/syeon0726/Github-Repository.git
     1-1. git config</br>1-2. git init</br>1-3. git remote</br>1-4. git status
    2. 본격적인 Project 시작 단계</br>
     2-1. touch</br>2-2. git add & git commit & git push</br>2-3. git clone & git branch & git checkout
+   3. 본격적인 Project 수행</br>
+    3-1.git pull</br>3-2. git log</br>3-3. git tag</br>3-4. git reset --hard</br>3-5. git rebase</br>3-6. git merge
    
 ---
 
@@ -131,7 +133,7 @@ https://github.com/syeon0726/Github-Repository.git
  4. main branch로 최종 병함 (merge) 및 commit 정리 ( rebase )
 
 ---
-## 1. 목차 작성
+## _**1. 목차 작성**_
 
 
 
@@ -162,7 +164,7 @@ https://github.com/syeon0726/Github-Repository.git
 
 ---
 
-##  2. project 내용 작성
+##  _**2. project 내용 작성**_
 
 ![23](https://user-images.githubusercontent.com/78208821/117455145-db4f9580-af81-11eb-8099-cf834289ffe4.png)
 >첫번째 version이 완성되었다.</br>현재 MarkDown사용서에는 사용법과 용도만 명시되어있다.
@@ -189,7 +191,7 @@ https://github.com/syeon0726/Github-Repository.git
 
 ---
 
-##   3. 수정(보완) 부분 파악및 수정 & 버젼관리 
+##   _**3. 수정(보완) 부분 파악및 수정 & 버젼관리 **_
 
 ### version2
 ![27](https://user-images.githubusercontent.com/78208821/117522784-31f3b880-aff0-11eb-96bd-ce1b1c870011.png)
@@ -204,7 +206,7 @@ https://github.com/syeon0726/Github-Repository.git
 
 ---
 
-### 수정 부분 파악
+### _**수정 부분 파악**_
 ![31](https://user-images.githubusercontent.com/78208821/117523874-9d8c5480-aff5-11eb-95f7-f4518e12c0a5.png)
 ![32](https://user-images.githubusercontent.com/78208821/117523879-a2510880-aff5-11eb-8b01-8f8dcba6f467.png)
 >version 3를 보니 목차1의 주의사항이 누락이 되어있었고 목차2에는 잘못된 주의사항이 적혀져있음이 확인되었다.</br>version 2로 되돌아가서 다시 작성하도록 한다.
@@ -233,10 +235,10 @@ https://github.com/syeon0726/Github-Repository.git
 
 ---
 
-## 4. main branch로 최종 병함 (merge) 및 commit 정리 ( rebase )
+## _**4. main branch로 최종 병함 (merge) 및 commit 정리 ( rebase )**_
 최종 version을 완성한뒤 project 원격저장소에도 저장하고 tag를 이용해 원격저장소에도 저장해 두었다. 
 
-## git rebase
+## _**git rebase**_
 현재 project branch를 보면 너무 많은 commit들이 쌓인 것을 확인 할 수 있다.</br>필수적인 commit을 제외하고 나머지 commit들을 병합하는 작업을 하도록 한다.
 ![38](https://user-images.githubusercontent.com/78208821/117526306-41c6c900-afff-11eb-90dc-d002a85263cf.png)
 ![39](https://user-images.githubusercontent.com/78208821/117527764-60ca5880-b009-11eb-9328-43a00553075f.png)
@@ -252,9 +254,22 @@ https://github.com/syeon0726/Github-Repository.git
 >rebase가 끝났다면 git의 나의 branch에 push를 해주면 된다.</br>rebase의 conflict를 해결한 경우라면 git에서 거부를 하게 되는데 이때는, -f를 붙여 강제로 push하면 된다.
 
 ---
-## git merge
+
+## _**git merge**_
 
 이제 최종 project가 완성되었으므로 main branch와 project project를 병합한다.
+![42](https://user-images.githubusercontent.com/78208821/117531057-8ceed500-b01b-11eb-8803-1bdbf1032410.png)
+> 1. git checkout main이라는 명령어를 통해 main branch로 돌아온다
+> 2. git merge project라는 명령어를통해 main branch를 project branch랑 병합한다.
+> 3. 원격저장소에 정보를 update 해준다
+>>Result
+>>![43](https://user-images.githubusercontent.com/78208821/117531058-911af280-b01b-11eb-9340-474014732e94.png)
+>>원격저장소에 MarkDownProject.md가 업데이트되어있음을 확인할 수 있다.
+>>
+
+
+---
+
 
 
 
